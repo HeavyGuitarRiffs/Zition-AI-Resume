@@ -1,0 +1,45 @@
+/* index.css */
+@tailwind base;
+@tailwind components;
+@tailwind utilities;
+
+
+.App-footer {
+  background-color: #282c34;
+  color: white;
+  padding: 1rem;
+  text-align: center;
+}
+
+.App-footer ul {
+  list-style: none;
+  padding: 0;
+}
+
+.App-footer li {
+  display: inline;
+  margin: 0 1rem;
+}
+
+.App-footer a {
+  color: white;
+  text-decoration: none;
+  font-size: 1.5rem; /* Adjust the size of the icons */
+}
+
+.App-footer a:hover {
+  text-decoration: underline;
+}
+
+@keyframes rotate {
+  0% {
+    transform: rotate(0deg);
+  }
+  100% {
+    transform: rotate(360deg);
+  }
+}
+
+.rotate-logo {
+  animation: rotate 5s linear infinite;
+}
